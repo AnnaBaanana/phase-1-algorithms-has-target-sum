@@ -6,9 +6,10 @@ function hasTargetSum(array, target) {
         console.log(array[j])
         if (array[i]+array[j] === target) {
           console.log(array[i]+array[j])
-          return true} 
+          return true}
         }
       }
+    return false
     }
 
 /* 
